@@ -3,7 +3,7 @@ import myproject.model.User;
 import myproject.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-//dầdasfd
+//dầdasfdádfdsafdas
     public class UserDAO {
         public boolean register(User user) {
             try (Session session = HibernateUtil.getSessionFactory().openSession()) {
